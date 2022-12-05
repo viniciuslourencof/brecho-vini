@@ -5,30 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Multi-step form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <!-- Sidebar start -->
 
-  Step 1
-  Your info
-
-  Step 2
-  Select plan
+  <div class="menu-lateral">
+    <div class="passo">      
+      <div class="passo__nr">1</div>
+      <p class="passo__titulo">Step 1</p> 
+      <p class="passo__descricao">Your info</p> 
+    </div>
   
-  Step 3
-  Add-ons
+    <div>     
+      <p class="passo__titulo">Step 2</p>
+      <p class="passo__descricao">Select plan</p>      
+    </div>
+    
+    <div>
+      <p class="passo__titulo">Step 3</p> 
+      <p class="passo__descricao">Add-ons</p>    
+    </div>
+  
+    <div>
+      <p class="passo__titulo">Step 4</p> 
+      <p class="passo-descricao">Summary</p>      
+    </div>
+  </div>
 
-  Step 4
-  Summary
 
   <!-- Sidebar end -->
 

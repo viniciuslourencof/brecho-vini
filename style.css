@@ -1,0 +1,35 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-lateral {
+    background-image: url(assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;    
+    color: white;
+    text-transform: uppercase;
+}
+
+.passo {
+    display: flex;
+}
+
+.passo__nr {
+    align-items: center;
+    background-color: #BEE2F8;
+    border-radius: 100%;
+    color: #1B3D63;
+    display: flex;
+    font-weight: 700;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+}
+
+.passo__titulo {
+    font-weight: thin;
+}
+
+.passo__descricao {
+    font-weight: 700;
+}
