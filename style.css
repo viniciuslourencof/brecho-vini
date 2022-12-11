@@ -61,7 +61,7 @@ main {
 
 .formulario {
     display: grid;
-    grid-template-rows: repeat(9,1rem);
+    grid-template-rows: repeat(10,1rem);
     grid-template-columns: auto;    
     row-gap: 1rem;
     width: auto;
@@ -72,4 +72,5 @@ main {
     font-size: 2rem;
     font-weight: 700;
     color: #0C3561;
+    grid-row: span 2;    
 }
