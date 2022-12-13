@@ -60,10 +60,8 @@ main {
 }
 
 .formulario {
-    display: grid;
-    grid-template-rows: repeat(10,1rem);
-    grid-template-columns: auto;    
-    row-gap: 1rem;
+    display: flex;    
+    flex-direction: column;
     width: auto;
     padding: 1rem;
 }
@@ -71,6 +69,21 @@ main {
 .formulario h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #0C3561;
-    grid-row: span 2;    
+    color: #0C3561;    
+}
+
+.formulario h2 {
+    color: hsl(231, 11%, 63%)
+}
+
+.formulario label {
+    color: #1B3D63;
+    font-weight: 500;
+}
+
+.formulario input {
+    border: 1px solid hsl(231, 11%, 63%);
+    color: hsl(231, 11%, 63%);
+    border-radius: 5px;
+    padding: 0.8rem;
 }
