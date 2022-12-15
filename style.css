@@ -64,6 +64,8 @@ main {
     flex-direction: column;
     width: auto;
     padding: 1rem;
+    gap: 1rem;
+
 }
 
 .formulario h1 {
@@ -86,4 +88,15 @@ main {
     color: hsl(231, 11%, 63%);
     border-radius: 5px;
     padding: 0.8rem;
+}
+
+.formulario button {
+    background-color: #03295A;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1rem;
+    width: 30%;
+    align-self: flex-end;
 }
