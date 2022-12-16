@@ -65,7 +65,8 @@ main {
     width: auto;
     padding: 1rem;
     gap: 1rem;
-
+    justify-self: center;
+    align-self: center;
 }
 
 .formulario h1 {
