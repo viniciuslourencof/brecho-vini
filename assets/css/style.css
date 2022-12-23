@@ -47,7 +47,7 @@ p, span {
 .menu-lista {
   display: flex;       
   gap: 1rem;    
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .menu-lista li {
@@ -142,6 +142,7 @@ p, span {
   justify-content: center;
   background-color: #31087B;
   border-radius: 10px;
+  box-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #31087B, 0 0 0.5em #31087B, 0 0 0.1em #31087B, 0 10px 3px #000;
 }
 
 .produto__img {
